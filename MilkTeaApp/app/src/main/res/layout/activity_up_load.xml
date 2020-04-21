@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.UpLoad">
+    <LinearLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:onClick="btn_chonAnh"
+            android:layout_gravity="center"
+            android:background="@drawable/iv_milktea"
+            android:id="@+id/iv_milkteaImage"
+            android:scaleType="centerCrop"
+            android:layout_width="192dp"
+            android:layout_height="180dp" />
+        <EditText
+            android:id="@+id/edt_tentrasua"
+            android:layout_marginTop="20dp"
+            android:hint="Tên trà sữa"
+            android:textSize="19dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edt_chitiet"
+            android:layout_marginTop="10dp"
+            android:hint="Chi tiết"
+            android:textSize="19dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edt_gia"
+            android:layout_marginTop="10dp"
+            android:hint="Giá"
+            android:textSize="19dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+<!--        <Button-->
+<!--            android:id="@+id/btn_chon"-->
+<!--            android:onClick="btn_chonAnh"-->
+<!--            android:textColor="#fff"-->
+<!--            android:backgroundTint="#FF9800"-->
+<!--            android:textSize="22dp"-->
+<!--            android:text="Chọn ảnh"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="60dp" />-->
+        <Button
+            android:id="@+id/btn_save"
+            android:onClick="btn_upload"
+            android:textColor="#fff"
+            android:backgroundTint="#FF9800"
+            android:textSize="22dp"
+            android:text="UPLOAD"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+    </LinearLayout>
+</LinearLayout>

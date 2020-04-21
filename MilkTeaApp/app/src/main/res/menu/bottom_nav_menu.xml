@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_Homne"
+        android:icon="@drawable/icon_home"
+        android:title="SKTea"
+        />
+    <item
+        android:id="@+id/item_DiemThuong"
+        android:icon="@drawable/icon_diemthuong"
+        android:title="Điểm thưởng"
+        />
+    <item
+        android:id="@+id/item_ThongBao"
+        android:icon="@drawable/icon_thongbao"
+        android:title="Thông báo"
+        />
+    <item
+        android:id="@+id/item_TaiKhoan"
+        android:icon="@drawable/icon_nguoidung"
+        android:title="Tài khoản"
+        />
+
+</menu>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".class_diemthuong.TichLuyDiemThuong">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_weight="0.5"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_back_tichluyDT"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icon_back"
+                android:layout_width="20dp"
+                android:layout_height="25dp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_weight="9.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_weight="9.5"
+            android:layout_width="402dp"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="Điều 1: Mục đích"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="    . Thành viên có thể sử dụng tài khoản được tích lũy thông qua việc mua các sản phẩm, dịch vụ tại SKTea và các chương trình khuyến mãi từ SKTea quy định và đặt ra."
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Thành viên xuất trình mã số thành viên để được hưởng ưu đãi"
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Mục đích của mọi điều khoản để quy định tất cả quyền, nghĩa vụ thành viên được sử dụng chính sách thành viên tại SKTea."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="402dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="Điều 2: Định nghĩa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="    . Tài khoản thành viên là tài khoản tích lũy điểm của thành viên"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Điểm là đơn vị tính của các giao dịch chi tiêu thành viên tích lũy tại mỗi tài khoản. Mỗi thành viên chỉ có 01 tài khoản"
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Điểm Tiêu Dùng là điểm thành viên tích lũy theo tỷ lệ do SKTea thông báo khi thành viên mua các sản phẩm hoặc dịch vụ có thể sử dụng phần điểm này để mua sản phẩm hoặc sử dụng dịch vụ tại các cửa hàng của SKTea."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="402dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="Điều 3: Đối tượng và điều kiện đăng kí thành viên"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="     3.1: Đối tượng"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Mọi khách hàng điều được trở thành thành viên của SKTea, khách hàng sẽ đăng kí thông tin trên ứng dụng SKTea bằng việc điền các thông tin bắt buộc do SKTea quy định và đồng ý các điều khoản chấp thuận về thu nhập, sử dụng thông tin cá nhân."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Thành viên không được phép chuyển đổi, chuyển nhượng tư cách thành viên cho bên thứ 3 và không được sử dụng để làm vật bảo đảm."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="     3.2: Điều kiện đăng kí"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Khách hàng đăng kí tài khoản trên ứng dụng SKTea (tại Google Play đối với Android)."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Khách hàng phải điền đúng ngày tháng năn sinh và đầy đủ các thông tin cá nhân khác của mình khi đăng kí trở thành thành viên để đảm bảo quyền lợi."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Mỗi cá nhân chỉ được tạo một tài khoản. Thành viên sẽ nhận được tin nhắn xác thực qua số điện thoại đăng kí để kích hoạt tài khoản thành công."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="402dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="Điều 4: Phạm vi sử dụng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Hệ thống SKTea toàn quốc."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="402dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="Điều 5: Sử dụng và quản lý tài khoản thành viên"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Thành viên xuất trình mã số thành viên trước khi thanh toán."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Tài khoản thành viên không được quyền chuyển đổi, chuyển nhượng hay ủy quyền cho bên thứ 3 sử dụng hoặc làm vật bảo đảm khi không có sự đồng ý của SKTea."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . Khi thành viên xuất trình mã số thành viên SKTea để được hưởng ưu đãi, SKTea có quyền yêu cầu thành viên xuất trình chứng minh nhân dân để xác nhận."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . SKTea không chịu trách nhiệm đối với bất cứ thiệt hại nào đối với thành viên do thành viên quy phạm quy định, hay do thành viên bất cẩn trong việc quản lí tài khoản thành viên."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="402dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="Điều 6: Tích lũy điểm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="    . 1 sản phẩm= 1đ."
+                    android:layout_marginLeft="7dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

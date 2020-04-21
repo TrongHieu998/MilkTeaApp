@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "189533191379",
+    "firebase_url": "https://apptrasua-5f1ed.firebaseio.com",
+    "project_id": "apptrasua-5f1ed",
+    "storage_bucket": "apptrasua-5f1ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189533191379:android:7b3c20d4bfad95edf9a826",
+        "android_client_info": {
+          "package_name": "com.example.app_trasua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189533191379-l77hsp9k06t4uts7o8ku25vhvjujqktf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_trasua",
+            "certificate_hash": "0519295bfdb67b5be8d9a736541f8666c5d05e91"
+          }
+        },
+        {
+          "client_id": "189533191379-bgqh3s84qhlgj98p90vl367ugo93tbo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsNIM0HXZ8zXGy6cEOTcNZUzhq1U9N858"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189533191379-bgqh3s84qhlgj98p90vl367ugo93tbo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#EBE8E8"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icon_back"
+                android:layout_width="20dp"
+                android:layout_height="25dp" />
+            <EditText
+                android:id="@+id/edt_timkiem"
+                android:hint="Tìm kiếm"
+                android:layout_marginLeft="20dp"
+                android:layout_width="280dp"
+                android:layout_height="50dp">
+            </EditText>
+            <ImageView
+                android:id="@+id/img_giohang_classs"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/icon_giohang"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/tool"
+        android:scrollbars="vertical"
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

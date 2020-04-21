@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="170dp">
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="#9BE2F8"
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+        <ImageView
+            android:background="@drawable/pic_hongtravietuoc"
+            android:id="@+id/img_dongGioHang"
+            android:layout_width="100dp"
+            android:layout_height="170dp" />
+        <LinearLayout
+            android:paddingRight="20dp"
+            android:layout_toRightOf="@id/img_dongGioHang"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:paddingRight="10dp"
+                android:textSize="20sp"
+                android:text="Hồng trà việt quốc"
+                android:id="@+id/txt_ten_dongGioHang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_gravity="center"
+                android:paddingRight="10dp"
+                android:layout_below="@id/txt_ten_dongGioHang"
+                android:textSize="20sp"
+                android:text="38.000"
+                android:id="@+id/txt_gia_dongGioHang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:text="Số lượng:"
+                    android:layout_gravity="center"
+                    android:id="@+id/txt_sl"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="1"
+                    android:id="@+id/txt_soluong_dongGioHang"
+                    android:layout_toRightOf="@+id/txt_sl"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+            <!--        <TextView-->
+            <!--            android:visibility="invisible"-->
+            <!--            android:id="@+id/txt_tongtien_dongGioHang"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content">-->
+            <!--        </TextView>-->
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

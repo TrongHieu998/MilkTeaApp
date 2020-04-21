@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_weight="1"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_back_card"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/icon_back"
+                android:layout_width="20dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:text="Giỏ Hàng"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="150dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recycleView_card"
+    android:layout_weight="6"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:id="@+id/txt_msgl"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textSize="20dp"
+        android:text="Xin chúc mừng, đơn hàng của bạn đã được đặt thành công. Bạn sẽ sớm nhận được đơn hàng"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp">
+    </TextView>
+    <LinearLayout
+        android:layout_marginBottom="30dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Tổng tiền:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="0"
+                android:layout_marginLeft="60dp"
+                android:id="@+id/txt_tongtien_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_thanhtoan_cart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.7"
+            android:background="@drawable/btn_giohang"
+            android:text="THANH TOÁN GIỎ HÀNG"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/btn_tieptucmuahang_cart"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_giohang"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="TIẾP TỤC MUA HÀNG"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+</LinearLayout>

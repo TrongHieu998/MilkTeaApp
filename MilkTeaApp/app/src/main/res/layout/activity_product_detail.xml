@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".class_home.ChiTiet_FootData">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_weight="1"
+        android:id="@+id/tool"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_close_detail"
+                android:background="@drawable/icon_close"
+                android:layout_width="20dp"
+                android:layout_height="25dp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_weight="8"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img_detail"
+                android:layout_gravity="center"
+                android:layout_width="210dp"
+                android:layout_height="280dp"/>
+
+            <TextView
+                android:id="@+id/txt_name_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Hồng trà việt quốc"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:textColor="#E98F09"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="38.000"
+                android:id="@+id/txt_gia_deatail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:id="@+id/numberButton_detail"
+                android:layout_width="150dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:elevation="4dp"
+                app:finalNumber="10"
+                app:initialNumber="1"
+                app:textSize="10dp"></com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+            <TextView
+                android:id="@+id/txt_chitiet_detail"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:text="Chút chát rất nhẹ từ hồng trà, thêm vị chua dịu, ngọt, thơm của mứt việt quất và rau câu dừa mềm mềm, thanh mát."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/btn_chitiet_adđCard"
+            android:layout_width="150dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_giohang"
+            android:text="Thêm vào giỏ" />
+    </LinearLayout>
+</LinearLayout>
